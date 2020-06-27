@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    color:white;
+    text-align: center;
+}
+
+/* colors of my skills */
+.html {
+    background-color: #3cd070;
+}
+.css {
+    background-color: #145051;
+}
+.js {
+    background-color: #1f3e5a;
+}
+.php {
+    background-color: #003b59;
+}
+.jq {
+    background-color: #682860;
+}
+.Csharp {
+    background-color: #3c1c31;
+}
+.ajax{
+    background-color: #56056e;
+}
+.sass{
+    background-color: #1d126e;
+}
+.sql{
+    background-color: #1a1251;
+}
+
+.progress{
+    background-color: dimgray;
+    border-radius: 50px;
+    height: 20px;
+}
+/* everything with ice */
+.bg-ice{
+    background-color: #00b3ca;
+}
+.text-ice{
+    color: #00b3ca;
+}
+.btn-ice{
+    background-color: #00b3ca;
+    text-decoration: none;
+    color: white;
+}
+
+.text-overig{
+    color: springgreen;
+}
+
+#informatie{
+    order: 1;
+}
+
+#blog{
+    order: 2;
+}
+
+.notificatie{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+}
+
+/* like */
+.like {
+    font-size: 30px;
+}
+
+.like_nummer{
+    font-family: "Comic Sans MS";
+}
+
+@media screen and (max-width: 576px){
+    #informatie{
+        order: 2;
+    }
+    #blog{
+        order: 1;
+    }
+}
